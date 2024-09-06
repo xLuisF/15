@@ -298,7 +298,7 @@ footer {
   }
 }
 
-/*iPhone14ProMax*/
+/*iPhone14ProMax*//*
 @media (max-width: 430px){
   /*html{
     margin-top: 20px;
@@ -309,9 +309,9 @@ footer {
   .row{
     background-size: 80%;
   }
-}*/
+}
 
-/*iPhoneXR*/
+/*iPhoneXR*//*
 @media (max-width: 414px){
 
 }
@@ -346,7 +346,7 @@ footer {
   }
 } 
 
-/*iPhoneSE*/
+/*iPhoneSE*//*
 @media (max-width: 375px){
   html {
     overflow-x: hidden;
@@ -363,7 +363,7 @@ footer {
   .letrasReloj{
     font-size: 8px;
   }
-}
+}*/
 
 
 
