@@ -1,0 +1,337 @@
+html {
+  overflow-x: hidden;
+  margin: auto;
+  width: max-content;
+}
+body {
+  overflow: hidden;
+  background-image: url("./imagenes/fondo.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.container-fluid {
+  display: grid;
+  place-items: center;
+}
+
+.container2 {
+  display: grid;
+  place-items: center;
+}
+
+#logo {
+  margin-top: 120px;
+  aspect-ratio: 5/2;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.row {
+  width: 55%;
+  background-image: url("./imagenes/reloj.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 35px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.col {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  line-height: 12px;
+  font-family: "gothammedium", sans-serif;
+  letter-spacing: 4px;
+  font-size: 17px;
+}
+
+.letrasReloj {
+  font-size: 8px;
+  font-family: "gothambook", sans-serif;
+  letter-spacing: 2px;
+}
+
+.separador {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.img {
+  margin: 5px;
+}
+
+#fecha {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8px;
+}
+#dia {
+  font-family: "gothambook", sans-serif;
+  letter-spacing: 5px;
+}
+#diaNum {
+  font-size: 40px;
+  margin-left: 6px;
+  margin-right: 10px;
+  font-family: "gothammedium", sans-serif;
+}
+#mesHora {
+  line-height: 0px;
+}
+#mes {
+  font-family: "gothamblack", sans-serif;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+#hora {
+  font-family: "gothambook", sans-serif;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.gotBook {
+  font-family: "gothambook", sans-serif;
+}
+
+.secciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+.titulo {
+  font-family: "gothambold", sans-serif;
+  letter-spacing: 4px;
+  font-size: 15px;
+}
+#direccion {
+  font-family: "gothambook", sans-serif;
+  margin-top: -13px;
+  font-size: 11pt;
+  margin-bottom: 15px;
+}
+#tipoVestimenta {
+  font-family: "gothambook", sans-serif;
+  margin: 2px;
+}
+
+#formulario {
+  text-align: center;
+  font-family: "gothambook", sans-serif;
+  margin-bottom: 18px;
+}
+
+#regalo {
+  text-align: center;
+  font-family: "gothambook", sans-serif;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.gBold {
+  font-family: "gothambold", sans-serif;
+}
+
+#teEspero {
+  font-family: "rosellinda_alyamoreregular", sans-serif;
+  font-size: 60pt;
+  margin-top: 15px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #f60202 0%,
+    #490f0f 25%,
+    #dc0000 100%
+  );
+  padding: 5px 25px;
+  text-align: center;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 30px;
+  display: block;
+  border: none;
+  font-family: "gothambold", sans-serif;
+  font-size: 13px;
+}
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  padding-bottom: 30%;
+}
+
+.vinculo {
+  list-style: none;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-size: 80% 100%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+  html {
+    overflow-x: hidden;
+    width: 120%;
+    margin-left: -10%;
+    margin-top: -5%;
+  }
+  body {
+    background-size: 105% 100%;
+  }
+
+  header {
+    margin-bottom: 20px;
+    width: 140%;
+  }
+
+  #logo {
+    margin-top: 130px;
+    width: 35%;
+  }
+
+  .row {
+    width: 63%;
+    background-size: 93% 100%;
+    padding-right: 23px;
+    padding-left: 20px;
+  }
+
+  .secciones{
+    width: 70%;
+  }
+
+  #imgFinal{
+    width: 150%;
+    height: 1px;
+  }
+
+  #teEspero {
+    font-size: 50pt;
+  }
+
+  footer {
+    padding-bottom: 40%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  .row {
+    width: 80%;
+    background-size: 90% 100%;
+    padding-right: 30px;
+    padding-left: 27px;
+  }
+
+  #imgFinal{
+    width: 150%;
+    height: 1px;
+  }
+
+  #teEspero {
+    font-size: 50pt;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 320px){
+  html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  body {
+    background-size: 133% 102%;
+  }
+  .row {
+    width: 130%;
+    background-size: 88% 100%;
+    padding-right: 25px;
+    padding-left: 35px;
+  }
+
+  #logo {
+    width: 70%;
+  }
+
+  .separador {
+    width: 100%;
+  }
+  
+  .secciones{
+    width: 100%;
+  }
+  
+  #imgFinal{
+    width: 90%;
+    height: 1px;
+  }
+
+  #teEspero {
+    font-size: 45pt;
+    margin-bottom: 90px;
+  }
+}
+
+
+
+@font-face {
+  font-family: "gothamblack";
+  src: url("fuentes/gotham-black-webfont.woff2") format("woff2"),
+    url("fuentes/gotham-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gothambold";
+  src: url("fuentes/gotham-bold-webfont.woff2") format("woff2"),
+    url("fuentes/gotham-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gothambook";
+  src: url("fuentes/gotham-book-webfont.woff2") format("woff2"),
+    url("fuentes/gotham-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gothammedium";
+  src: url("fuentes/gotham-medium-webfont.woff2") format("woff2"),
+    url("fuentes/gotham-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "rosellinda_alyamoreregular";
+  src: url("fuentes/rosellinda_alyamore-webfont.woff2") format("woff2"),
+    url("fuentes/rosellinda_alyamore-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
