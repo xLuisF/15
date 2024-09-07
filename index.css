@@ -159,9 +159,9 @@ header {
 .btn-grad {
   background-image: linear-gradient(
     to right,
-    #d7a844 0%,
-    #f3d490 25%,
-    #d7a844 100%
+    #f60202 0%,
+    #490f0f 25%,
+    #dc0000 100%
   );
   padding: 5px 25px;
   text-align: center;
