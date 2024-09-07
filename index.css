@@ -3,7 +3,6 @@ html {
   margin: auto;
   width: max-content;
 }
-
 body {
   overflow: hidden;
   background-image: url("./imagenes/fondo.png");
@@ -29,7 +28,7 @@ body {
 
 #logo {
   margin-top: 120px;
-  aspect-ratio: 5/2;
+  aspect-ratio: 4/3;
 }
 
 header {
@@ -160,9 +159,9 @@ header {
 .btn-grad {
   background-image: linear-gradient(
     to right,
-    #f60202 0%,
-    #490f0f 25%,
-    #dc0000 100%
+    #d7a844 0%,
+    #f3d490 25%,
+    #d7a844 100%
   );
   padding: 5px 25px;
   text-align: center;
@@ -196,7 +195,7 @@ footer {
   }
 }
 
-@media (min-width: 375px) and (max-width: 480px){
+@media (min-width: 321px) and (max-width: 480px){
   html {
     overflow-x: hidden;
     width: 120%;
@@ -204,7 +203,7 @@ footer {
     margin-top: -5%;
   }
   body {
-    background-size: 90% 100%;
+    background-size: 105% 100%;
   }
 
   header {
@@ -213,12 +212,12 @@ footer {
   }
 
   #logo {
-    margin-top: 120px;
-    size: 10%;
+    margin-top: 130px;
+    width: 35%;
   }
 
   .row {
-    width: 58%;
+    width: 63%;
     background-size: 93% 100%;
     padding-right: 23px;
     padding-left: 20px;
@@ -229,7 +228,7 @@ footer {
   }
 
   #imgFinal{
-    width: 130%;
+    width: 150%;
     height: 1px;
   }
 
@@ -264,10 +263,10 @@ footer {
 @media (max-width: 320px){
   html {
     overflow-x: hidden;
-    width: 80%;
+    width: 100%;
   }
   body {
-    background-size: 100% 102%;
+    background-size: 133% 102%;
   }
   .row {
     width: 130%;
@@ -277,7 +276,7 @@ footer {
   }
 
   #logo {
-    width: 50%;
+    width: 70%;
   }
 
   .separador {
@@ -298,6 +297,7 @@ footer {
     margin-bottom: 90px;
   }
 }
+
 
 
 @font-face {

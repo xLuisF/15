@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded',() => {
     //===
     // VARIABLES
     //===
-    const diaDelEvento = new Date('11/15/2024 9:00 PM');
+    const diaDelEvento = new Date('05/24/2024 10:00 PM');
     // DOM for render
     const dias = document.getElementById('days');
     const horas = document.getElementById('hours');
