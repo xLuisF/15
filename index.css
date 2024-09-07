@@ -228,8 +228,8 @@ footer {
   }
 
   #imgFinal{
-    width: 150%;
-    height: 1px;
+    width: 130%;
+    height: 2px;
   }
 
   #teEspero {
@@ -266,11 +266,12 @@ footer {
     width: 100%;
   }
   body {
-    background-size: 133% 102%;
+    background-size: 110% 102%;
   }
+
   .row {
     width: 130%;
-    background-size: 88% 100%;
+    background-size: 75% 90%;
     padding-right: 25px;
     padding-left: 35px;
   }
@@ -279,16 +280,24 @@ footer {
     width: 70%;
   }
 
+  #fecha{
+    scale: 90%;
+  }
+
+  #mes{
+    font-size: 10px;
+  }
+
   .separador {
     width: 100%;
   }
   
   .secciones{
-    width: 100%;
+    width: 90%;
   }
   
   #imgFinal{
-    width: 90%;
+    width: 120%;
     height: 1px;
   }
 
