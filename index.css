@@ -3,16 +3,18 @@ html {
   margin: auto;
   width: max-content;
 }
+
 body {
   overflow: hidden;
+  background-image: url("./imagenes/fondo.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container {
   display: grid;
   place-items: center;
-  background-image: url("./imagenes/fondo.png");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .container-fluid {
@@ -193,7 +195,7 @@ footer {
     background-size: 80% 100%;
   }
 }
- /*
+
 @media (min-width: 375px) and (max-width: 480px){
   html {
     overflow-x: hidden;
@@ -296,19 +298,7 @@ footer {
     margin-bottom: 90px;
   }
 }
-*/
 
-@media screen and (min-width: 375px) and (max-width: 767px){
-  html {
-    overflow-x: hidden;
-    width: 130%;
-    margin-left: -10%;
-    margin-top: -10%;
-  }
-  .container{
-    scale: 90%;
-  }
-}
 
 @font-face {
   font-family: "gothamblack";
